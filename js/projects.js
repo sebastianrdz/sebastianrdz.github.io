@@ -1,4 +1,4 @@
-const projects = [
+export const projects = [
 	{
 		header: "NLP Chatbot",
 		type: "Web App",

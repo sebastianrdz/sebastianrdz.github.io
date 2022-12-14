@@ -270,21 +270,21 @@ header.sticky{
 
 .portfolio-content{
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+	grid-template-columns: repeat(auto-fit, minmax(400px, auto));
 	grid-gap: 2rem;
 	align-items: center;
 	margin-top: 5rem;
 	text-align: center;
-	cursor: pointer;
 }
 .col{
 	position: relative;
 	transition: all .40s;
+	cursor: pointer;
 }
 .col img{
 	width: 100%;
 	height: auto;
-	object-fit: cover;
+	object-fit: fill;
 	border-radius: 12px;
 }
 .col:hover {
@@ -299,7 +299,7 @@ header.sticky{
 	top: 0;
 	left: 0;
 	border-radius: 12px;
-	background: linear-gradient(rgba(75, 161, 180,0.1) 25%, rgba(75, 161, 180,1));
+	background: linear-gradient(rgba(11, 50, 92,.2) 0%, rgba(11, 50, 92,1));
 	text-align: start;
 	display: flex;
 	flex-direction: column;
@@ -334,7 +334,7 @@ header.sticky{
 }
 .tags div {
 	padding: 4px 10px;
-	border-radius: 8px;
+	border-radius: 20px;
 	font-size: 12px;
 	font-weight: 600;
 	text-align: center;
