@@ -326,13 +326,13 @@ header.sticky{
 	line-height: 20px;
 }
 
-.layer .tags {
+.tags {
 	display: flex;
 	gap: 8px;
 	border-top: 1px solid white;
 	padding-top: 6px;
 }
-.layer .tags div {
+.tags div {
 	padding: 4px 10px;
 	border-radius: 8px;
 	font-size: 12px;
